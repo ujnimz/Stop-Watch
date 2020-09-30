@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stop Watch</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container full-height">
+    <div class="row">
+      <h1>JavaScript Stop Watch</h1>
+      <p>by Ujith Nimantha</p>
+    </div>
+    <div class="row">
+
+      <div class="watch-wrapper">
+        <div class="watch">
+          <div id="hours">00</div>
+          :
+          <div id="minutes">00</div>
+          :
+          <div id="seconds">00</div>
+          :
+          <div id="mili-seconds">00</div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <div id="start" class="allowed">
+          Start
+        </div>
+        <div id="stop" class="not-allowed">
+          Stop
+        </div>
+        <div id="reset" class="not-allowed">
+          Reset
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
